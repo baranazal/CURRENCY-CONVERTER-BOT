@@ -26,7 +26,7 @@ def convert_currency(amount, from_currency, to_currency):
   """
     Convert an amount from one currency to another using the Open Exchange Rates API.
     """
-  API_KEY = "API_TOKEN" # Here you can add your token from https://openexchangerates.org/
+  API_KEY = "YOUR_APP_ID" # Here you can add your token from https://openexchangerates.org/
   API_URL = f"https://openexchangerates.org/api/latest.json?app_id={API_KEY}"
 
   response = requests.get(API_URL)
